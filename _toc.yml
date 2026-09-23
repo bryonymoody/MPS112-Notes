@@ -1,0 +1,31 @@
+# Table of Contents format version
+format: jb-book
+root: index
+
+numbering:
+  math:
+    enabled: false
+
+# Organize content into collapsible sections in the sidebar
+parts:
+  - caption: Lecture Notes
+    chapters:
+      - file: lectures/01_GCSE_content_catch_up
+        title: "GCSE content recap"
+      - file: lectures/Lecture 1
+      	title: "Lecture 1: Significant figures and decimal places"
+      - file: lectures/Lecture 2
+        title: "Lecture 2: Straight line graphs" 
+      - file: lectures/Lecture 3
+        title: "Lecture 3: Experimental errors"
+        
+
+
+  - caption: Assignments & Projects
+    chapters:
+# Inside your _config.yml
+html:
+  theme: book-theme
+  extra_navbar: "" # Removes default footer text
+  extra_css:
+     - custom.css 

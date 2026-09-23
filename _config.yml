@@ -1,0 +1,32 @@
+title: My Mathematical Modelling Course
+author: Dr Bryony Moody
+
+# This creates the top-right drop-down menu with the Colab link
+launch_buttons:
+  colab_interactive: true
+
+# Inside your _config.yml
+html:
+  theme: book-theme
+  extra_navbar: "" # Removes default footer text
+  extra_css:
+     - custom.css 
+sphinx:
+  config:
+    html_theme_options:
+      search_bar_text: "Search these notes..."
+      show_toc_level: 2
+  extra_extensions:
+    - sphinx_design  # Make sure this is used instead of sphinx_panels
+repository:
+  url: https://github.com/bryonymoody/MPS112_Sem1.git # Put your actual GitHub link here
+  branch: main
+  path_to_book: ""
+  
+
+numbering:
+  math:
+    enabled: false
+    
+
+

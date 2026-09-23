@@ -1,0 +1,18 @@
+.my-custom-dropdown.sd-card {
+    background-color: #ffccd5 !important; /* Changes the header background */
+    border-color: #ff4d6d !important;     /* Changes the box outline */
+}
+.my-custom-dropdown .sd-card-body {
+    background-color: #ffffff !important; /* Changes the inside content background */
+}
+
+.math {
+    overflow: visible !important;
+}
+div.math, .tex-display, .arithmatex {
+    overflow-x: auto;
+    overflow-y: visible !important;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
