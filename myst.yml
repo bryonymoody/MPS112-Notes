@@ -9,5 +9,8 @@ project:
 
 site:
   template: book-theme
+  projects:
+    - slug: .
+      path: .
   options:
     baseurl: /MPS112-Notes
