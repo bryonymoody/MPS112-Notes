@@ -1,13 +1,23 @@
+# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  id: f76303ef-ae85-4d89-8f99-97ede7d807ad
   title: MPS112 Essential Skills for Chemists
   description: Course notes and resources for MPS112 Trigonometry and Mathematics.
   authors:
     - name: Dr Bryony Moody
   github: https://github.com/bryonymoody/MPS112-Notes
-
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
-  template: book
-  options:
-    baseurl: /MPS112-Notes
-    favicon: favicon.ico
+  template: book-theme
+
+html:
+  theme: jupyter_book_theme
+  extra_navbar: ""
+  extra_css:
+     - custom.css 
+   options:
+     favicon: favicon.ico
+     baseurl: /MPS112-Notes
+  #   logo: site_logo.png
+
