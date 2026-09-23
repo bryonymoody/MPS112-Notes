@@ -1,4 +1,4 @@
 format: jb-book
-root: index.ipynb
+root: index
 chapters:
-  - file: index.ipynb
+  - file: index
