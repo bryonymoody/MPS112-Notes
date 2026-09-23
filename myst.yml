@@ -1,5 +1,6 @@
 version: 1
 project:
+  id: f76303ef-ae85-4d89-8f99-97ede7d807ad
   title: MPS112 Essential Skills for Chemists
   description: Course notes and resources for MPS112.
   authors:
@@ -7,7 +8,10 @@ project:
   github: https://github.com/bryonymoody/MPS112-Notes
 
 site:
-  template: book
+  template: book-theme
+  extra_navbar: ""
+  extra_css:
+     - custom.css 
   options:
     baseurl: /MPS112-Notes
     favicon: favicon.ico
