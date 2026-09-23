@@ -42,12 +42,12 @@ jobs:
       - name: Install MyST CLI & Build
         run: |
           npm install -g mystmd
-          myst build --html
+          myst build --html --debug
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_build/html'
+          path: '_build/site'
 
       - name: Deploy to GitHub Pages
         id: deployment
