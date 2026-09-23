@@ -13,6 +13,6 @@ site:
   extra_css:
      - custom.css 
   options:
-    baseurl: /MPS112-Notes
+    baseurl: /MPS112-Notes/
     favicon: favicon.ico
 
