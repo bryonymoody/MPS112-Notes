@@ -10,7 +10,7 @@ project:
 site:
   template: book-theme
   projects:
-    - slug: .
+    - slug: notes
       path: .
   options:
     baseurl: /MPS112-Notes
