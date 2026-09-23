@@ -28,9 +28,3 @@ numbering:
   math:
     enabled: false
     
-site:
-  template: book
-  options:
-    baseurl: /MPS112-Notes
-    favicon: favicon.ico
-
