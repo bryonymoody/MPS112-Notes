@@ -16,8 +16,9 @@ html:
   extra_navbar: ""
   extra_css:
      - custom.css 
-  # options:
-  #   favicon: favicon.ico
+  options:
+     baseurl: /MPS112-Notes
+     favicon: favicon.ico
   #   logo: site_logo.png
   
 
