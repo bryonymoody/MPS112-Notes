@@ -1,5 +1,10 @@
 name: Deploy MyST Site
-
+version: 1
+project:
+  title: MPS112 Essential Skills for Chemists
+site:
+  options:
+    baseurl: /MPS112-Notes
 on:
   push:
     branches:
