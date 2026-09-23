@@ -2,11 +2,11 @@ format: jb-book
 root: index
 chapters:
   - file: index
-  - file: Lecture 1
-  - file: Lecture 2
-  - file: Lecture 3
-  - file: Lecture 4
-  - file: Topic 5
-  - file: Topic 6
-  - file: Topic 7 Exponentials and logarithms
-  - file: Topic 8 Trigonometry
+  - file: lectures/Lecture 1
+  - file: lectures/Lecture 2
+  - file: lectures/Lecture 3
+  - file: lectures/Lecture 4
+  - file: lectures/Topic 5
+  - file: lectures/Topic 6
+  - file: lectures/Topic 7 Exponentials and logarithms
+  - file: lectures/Topic 8 Trigonometry
