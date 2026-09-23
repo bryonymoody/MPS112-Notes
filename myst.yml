@@ -9,10 +9,7 @@ project:
 
 site:
   template: book-theme
-  extra_navbar: ""
-  extra_css:
-     - custom.css 
+  projects:
+    - slug: .
   options:
-    baseurl: /MPS112-Notes/
-    favicon: favicon.ico
-
+    baseurl: /MPS112-Notes
