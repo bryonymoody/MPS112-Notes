@@ -1,32 +1,14 @@
-title: My Mathematical Modelling Course
-author: Dr Bryony Moody
+version: 1
+project:
+  title: MPS112 Essential Skills for Chemists
+  description: Course notes and resources for MPS112 Trigonometry and Mathematics.
+  authors:
+    - name: Dr Bryony Moody
+  github: https://github.com/bryonymoody/MPS112-Notes
 
-# This creates the top-right drop-down menu with the Colab link
-launch_buttons:
-  colab_interactive: true
-
-# Inside your _config.yml
-html:
-  theme: book-theme
-  extra_navbar: "" # Removes default footer text
-  extra_css:
-     - custom.css 
-sphinx:
-  config:
-    html_theme_options:
-      search_bar_text: "Search these notes..."
-      show_toc_level: 2
-  extra_extensions:
-    - sphinx_design  # Make sure this is used instead of sphinx_panels
-repository:
-  url: https://github.com/bryonymoody/MPS112_Sem1.git # Put your actual GitHub link here
-  branch: main
-  path_to_book: ""
-  
-
-numbering:
-  math:
-    enabled: false
-    
-
+site:
+  template: book
+  options:
+    baseurl: /MPS112-Notes
+    favicon: favicon.ico
 
