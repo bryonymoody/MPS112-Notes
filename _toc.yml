@@ -1,0 +1,4 @@
+format: jb-book
+root: index.ipynb
+chapters:
+  - file: index.ipynb
