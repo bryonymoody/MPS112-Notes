@@ -1,7 +1,6 @@
 format: jb-book
 root: index
 chapters:
-  - file: index
   - file: lectures/Lecture 1 
   - file: lectures/Lecture 2
   - file: lectures/Lecture 3
