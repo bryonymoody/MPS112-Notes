@@ -3,8 +3,6 @@ project:
   id: f76303ef-ae85-4d89-8f99-97ede7d807ad
   title: MPS112 Essential Skills for Chemists
   description: Course notes and resources for MPS112.
-  authors:
-    - name: Dr Bryony Moody
   github: https://github.com/bryonymoody/MPS112-Notes
 
 site:
