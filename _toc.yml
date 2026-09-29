@@ -2,6 +2,7 @@ format: jb-book
 root: index
 chapters:
   - file: lectures/GCSE_content
+  - file: lectures/gcse_question
   - file: lectures/Lecture 1 
   - file: lectures/Lecture 2
   - file: lectures/Lecture 3
